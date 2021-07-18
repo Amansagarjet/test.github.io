@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-top{
+        background: linear-gradient(to left, #ed6dc0, #8a035a);
+}
+
+/* Background One */
+/* section .bg{
+    background-image: url('../assets/img/bg.jpg'), linear-gradient(to right, rgba( 0, 0, 0, 0.4),rgba(0, 0, 0, 0.3));   
+    height: 100vh;
+	width: 100%;
+	background-size: 100% 100%;
+    background-position: cover;
+    background-attachment: fixed;
+	
+} */
+/* All Button Css Apply Here */
+button{
+    border-radius: 80px;    
+    color: white;
+    background: linear-gradient(to right, #8a035a, #2a06cc );
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:8px;
+    padding-bottom:8px;
+    border:none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .header-top .row,
+    .lmore-content {
+        margin: 0;
+    }
+    .header-top .container,
+    .header-top .row>[class*="col-"] {
+        padding: 0;
+    }
+    .header-social,
+    .top-mail a:first-child,
+    .responsive,
+    #markque-container {
+        display: none;
+    }
+    .header-top p {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .callbacks_nav {
+        margin-top: -25px;
+    }
+    #welcome-container {
+        padding: 0 0 25px;
+    }
+    .lmore-content p,
+    .lmore-content h2 {
+        text-align: center !important;
+    }
+    
+}
